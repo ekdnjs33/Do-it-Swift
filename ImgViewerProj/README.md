@@ -11,11 +11,11 @@
 <br></br>
 > 이미지를 할당하는 방법
 ```
-imgView = UIImage(named: "picture.png")
+imgView.image = UIImage(named: "picture.png")
 ```
 >  이미지 명이 숫자로 되어있다면
 ```
 let imgName = String(num) + ".png"
 
-imgView = UIImage(named: imgName)
+imgView.image = UIImage(named: imgName)
 ```
